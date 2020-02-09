@@ -94,7 +94,7 @@ function openMenu(){
 var check = false;
 if(window.attachEvent) {
     window.attachEvent('onresize', function() {
-        const width = $(window).width();
+        const width = screen.width();
 
         //console.log(check);
         if(width > 521  && check){
