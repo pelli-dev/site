@@ -97,7 +97,7 @@ if(window.attachEvent) {
     window.attachEvent('onresize', function() {
         const width = screen.width;
 
-        console.log(check);
+        //console.log(check);
         if(width > 521  && check){
 
             reload();
@@ -111,7 +111,7 @@ else if(window.addEventListener) {
     window.addEventListener('resize', function() {
         const width = screen.width;
 
-        console.log(check);
+        //console.log(check);
         if(width > 521 && check){
 
             reload();
