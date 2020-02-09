@@ -128,6 +128,6 @@ else {
 
 function reload(){
 
-    location.href = "file:///home/guest/Scrivania/sito_prova/index.html";
+    location.href = "https://pelli-dev.github.io/site/";
     check = true;
 }
