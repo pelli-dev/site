@@ -8,7 +8,7 @@ type(words, index, txt);
 function type(words, index, txt){
 
     //console.log(words, index);
-    const div = screen.width();
+    const div = screen.width;
     //console.log(div);
 
     const word = words[index % words.length];
@@ -94,7 +94,7 @@ function openMenu(){
 var check = false;
 if(window.attachEvent) {
     window.attachEvent('onresize', function() {
-        const width = screen.width();
+        const width = screen.width;
 
         //console.log(check);
         if(width > 521  && check){
@@ -108,7 +108,7 @@ if(window.attachEvent) {
 }
 else if(window.addEventListener) {
     window.addEventListener('resize', function() {
-        const width = screen.width();
+        const width = screen.width;
 
         //console.log(check);
         if(width > 521 && check){
