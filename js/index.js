@@ -3,6 +3,7 @@ const index = 0;
 const txt = "";
 
 type(words, index, txt);
+alert($(window).width());
 
 
 
