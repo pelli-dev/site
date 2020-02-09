@@ -108,7 +108,7 @@ if(window.attachEvent) {
 }
 else if(window.addEventListener) {
     window.addEventListener('resize', function() {
-        const width = screen.width;
+        const width = screen.width();
 
         //console.log(check);
         if(width > 521 && check){
