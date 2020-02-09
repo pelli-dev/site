@@ -481,5 +481,9 @@ body .links-part .links-part-links-container .links-part-links-container-subcont
     margin-left: 0px;
     margin-top: 2%;
   }
+  
+   body nav .nav-content .nav-content-options-container .nav-content-option:active{
+      border: none;
+  }
 }
 /*# sourceMappingURL=index.css.map */
