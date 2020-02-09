@@ -84,3 +84,50 @@ function openMenu(){
         nav.height = "0%";
     }
 }
+
+
+
+
+
+
+
+
+var check = false;
+if(window.attachEvent) {
+    window.attachEvent('onresize', function() {
+        const width = screen.width;
+
+        console.log(check);
+        if(width > 521  && check){
+
+            reload();
+        }else if(width <= 521 && !check ){
+
+            check = true;
+        }
+    });
+}
+else if(window.addEventListener) {
+    window.addEventListener('resize', function() {
+        const width = screen.width;
+
+        console.log(check);
+        if(width > 521 && check){
+
+            reload();
+        }else if(width <= 521 && !check ){
+
+            check = true;
+        }
+    }, true);
+}
+else {
+    //The browser does not support Javascript event binding
+}
+
+
+function reload(){
+
+    location.href = "file:///home/guest/Scrivania/sito_prova/index.html";
+    check = true;
+}
