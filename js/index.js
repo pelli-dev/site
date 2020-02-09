@@ -11,7 +11,7 @@ alert($(window).width());
 function type(words, index, txt){
 
     //console.log(words, index);
-    const div = $(window).width();
+    const div = screen.width();
     //console.log(div);
 
     const word = words[index % words.length];
