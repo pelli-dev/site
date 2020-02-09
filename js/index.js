@@ -3,9 +3,6 @@ const index = 0;
 const txt = "";
 
 type(words, index, txt);
-alert("ok");
-alert($(window).width());
-
 
 
 function type(words, index, txt){
